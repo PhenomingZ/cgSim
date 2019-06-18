@@ -1,3 +1,5 @@
+package com.cg.cgsim;
+
 import java.io.*;
 
 /**
@@ -32,6 +34,8 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        System.out.println("Hello World!");
 
     }
 
