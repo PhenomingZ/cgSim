@@ -22,7 +22,7 @@ public class Main {
 
             BufferedReader in = new BufferedReader(new InputStreamReader(proc.getInputStream()));
 
-            String line = null;
+            String line;
 
             while ((line = in.readLine()) != null) {
                 System.out.println(line);
@@ -36,6 +36,7 @@ public class Main {
         }
 
         System.out.println("Hello World!");
+        System.out.println(args[0]);
 
     }
 
